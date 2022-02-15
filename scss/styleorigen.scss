@@ -1,0 +1,36 @@
+*{margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;}
+
+body{
+    width: 100%;
+    height: 100vh; 
+    background-color: black;}
+    
+
+/****************Estilos Adicionales*******************/
+
+//Import
+
+@import "transicionesyanimaciones";
+
+/*variables*/
+$first: #bd2308;
+
+article{
+    h3{ 
+        border-style: dotted;
+        color: $first;
+        img{
+            width: 200px;
+            height: 75px;}
+        }
+    p{color: $first;}
+    }
+
+
+/* Gradientes */ 
+
+main{background-image: linear-gradient(black 10% , white 100%);}
+
+section{background-image: linear-gradient(to top, black 60%, white 100%)}
